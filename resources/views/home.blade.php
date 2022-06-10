@@ -69,7 +69,7 @@
         <ul>
             @foreach ($lista_link as $link)
             <li>
-                {{route($link)}}
+                <a href="{{route($link)}}">{{$link}}</a>
             </li>
             @endforeach
         </ul>

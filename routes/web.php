@@ -15,12 +15,11 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     $data = [
-
         'lista_link' => [
             'page',
             'page2',
             'home',
-        ]
+        ],
     ];
     return view('home', $data);
 })->name('home');
